@@ -1,0 +1,28 @@
+Question 1:
+	create metric
+		sum of user spend / frequency of purchase to get average spend
+	look at this metric by quarter and by segment
+	Value is defined as highest purchasing
+	understand sum of purchases
+	frequency of purchases
+
+	crossover between segments
+
+Question 3:
+	need to group by quarter to show counts of graph
+	show % of purchases using coupon by quarter
+	decide whether you want to use SQL query or pandas query
+
+
+Question 5:
+	determine holiday first purchaser
+		determine first purchase - use group by
+		
+
+	purchasing behavior:
+		frequency outside of holiday
+		stores shopped at
+		amount spent
+		use a coupon?
+		counts of what first time versus non first time shoppers bought
+		sales channel used
