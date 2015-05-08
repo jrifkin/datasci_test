@@ -17,7 +17,7 @@ Question 3:
 Question 5:
 	determine holiday first purchaser
 		determine first purchase - use group by
-		
+			select user_id, min(time_stamp) from datasci.actions where action_type = 'purchase' group by user_id;
 
 	purchasing behavior:
 		frequency outside of holiday
