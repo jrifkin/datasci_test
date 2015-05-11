@@ -11,7 +11,10 @@ def get_configuration(conf_file='db.conf'):
     return new_config
 
 def make_connection(cf):
-    import MySQLdb as mdb
+    try: 
+        import MySQLdb as mdb
+    except:
+        import pymysql as mdb
     
     dialect = cf.get('Database', 'type')
     user = cf.get('Database', 'db_user')

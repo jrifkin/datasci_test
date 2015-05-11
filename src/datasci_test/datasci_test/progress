@@ -1,28 +1,18 @@
 Question 1:
 	create metric
-		sum of user spend / frequency of purchase to get average spend
-	look at this metric by quarter and by segment
-	Value is defined as highest purchasing
-	understand sum of purchases
+	average spend by segment
+	Total spend by segment
+	Total spend by segment across time
+	
 	frequency of purchases
+	who buys in the holiday (b/c seg 3 looks the strongest)
 
-	crossover between segments
+	crossover between segments - done
 
 Question 3:
-	need to group by quarter to show counts of graph
-	show % of purchases using coupon by quarter
-	decide whether you want to use SQL query or pandas query
-
+	frequency and mean coupon use charted
+	write
 
 Question 5:
-	determine holiday first purchaser
-		determine first purchase - use group by
-			select user_id, min(time_stamp) from datasci.actions where action_type = 'purchase' and month(time_stamp) in (10,11,12) group by user_id;
-
-	purchasing behavior:
-		frequency outside of holiday
-		stores shopped at
-		amount spent
-		use a coupon?
-		counts of what first time versus non first time shoppers bought
-		sales channel used
+	ready to write
+		
